@@ -4,9 +4,12 @@
 	Acting mostly as scouts for groups of 'supply liberation' militia around their home, \
 	stealth is a virtue for a Hollow Ranger."
 	allowed_sexes = list(MALE, FEMALE)
-	allowed_races = list("Hollow-Kin",
-	"Harpy",
-	"Humen")
+	allowed_races = list(\
+		SPEC_ID_HOLLOWKIN,\
+		SPEC_ID_HUMEN,\
+		SPEC_ID_HARPY,\
+	)
+
 	outfit = /datum/outfit/job/adventurer/hollowranger
 	min_pq = 0
 	category_tags = list(CTAG_ADVENTURER)
